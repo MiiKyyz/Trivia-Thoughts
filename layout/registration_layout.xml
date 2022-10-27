@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="38sp"
+        android:layout_margin="11dp"
+        android:id="@+id/title" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:hint="Username"
+        android:textColor="#ffeae6"
+        android:textColorHint="#94817e"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        
+        android:id="@+id/edit_Username" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:textColor="#ffeae6"
+        android:textColorHint="#94817e"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:inputType="none|textWebPassword"
+        android:hint="Password"
+        android:id="@+id/edit_Password" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:textColor="#ffeae6"
+        android:textColorHint="#94817e"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:inputType="none|textWebPassword"
+        android:hint="Confirm Password"
+        android:id="@+id/edit_re_Password" />
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:id="@+id/btn_Register" />
+ 
+
+</LinearLayout>

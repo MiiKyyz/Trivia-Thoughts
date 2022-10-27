@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Nationality  Prediction"
+        android:gravity="center"
+        android:textColor="#29120b"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/gender_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Name"
+            android:padding="10dp"
+            android:textColor="#ffeae6"
+            android:textColorHint="#94817e"
+            android:background="@drawable/input"
+            android:id="@+id/Name_txt" />
+        <Button
+            android:text="Predict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_search"
+            app:icon="@drawable/predict_nationality"
+       />
+        <TextView
+            android:text="Name:"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="#ffeae6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Display_Name" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Layout_panel">
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Guess"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#46211A"
+        android:id="@+id/title" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp"
+        
+        android:background="@drawable/gender_background"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#ffeae6"
+            android:id="@+id/title2" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Questions:"
+            android:inputType="none|number"
+            android:layout_margin="20dp"
+            android:textColor="#ffeae6"
+            android:textColorHint="#94817e"
+            android:padding="10dp"
+            android:background="@drawable/input"
+            android:id="@+id/question_num" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#ffeae6"
+            android:background="@drawable/spinner_layout"
+            android:id="@+id/spinner_category" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="#ffeae6"
+            android:background="@drawable/spinner_layout"
+            android:id="@+id/spinner_dificulty" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/spinner_layout"
+
+            android:textColor="#ffeae6"
+            android:id="@+id/spinner_type" />
+        <Button
+            android:text="Let's Play"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_btn" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
