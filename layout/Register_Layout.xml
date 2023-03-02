@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bardesign"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/panel"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="@string/Registration_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:id="@+id/Registration_title" />
+
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/User_register"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#faa7a7"
+                android:textColorLink="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:shadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+                android:id="@+id/User" />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#faa7a7"
+                android:textColorLink="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:shadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+                android:hint="@string/Lastname_register"
+                android:id="@+id/Lastname" />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#faa7a7"
+                android:textColorLink="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:shadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+                android:inputType="textPassword"
+                android:hint="@string/pass_register"
+                android:id="@+id/Pass" />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#faa7a7"
+                android:textColorLink="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:shadowColor="#ffffff"
+                android:outlineAmbientShadowColor="#ffffff"
+                android:outlineSpotShadowColor="#ffffff"
+                android:inputType="textPassword"
+                android:hint="@string/repass_register"
+                android:id="@+id/repass" />
+            <Button
+                android:text="@string/btn_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:id="@+id/resgister" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

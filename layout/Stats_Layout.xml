@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:background="@drawable/panel"
+        android:id="@+id/linearLayout1" >
+
+        <TextView
+            android:text="@string/Title_Stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Title_Stats" />
+
+        <TextView
+            android:text="@string/Name_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="55dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Name_stats" />
+        <TextView
+            android:text="@string/Corrects_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:id="@+id/Corrects_answers" />
+        <TextView
+            android:text="@string/InCorrects_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:id="@+id/InCorrects_answers" />
+
+        <TextView
+            android:text="@string/NoSelected_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:id="@+id/NoSelected_answers" />
+
+
+        <TextView
+            android:text="@string/Ratio_winning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:id="@+id/Ratio_winning" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:background="@drawable/panel"
+        android:id="@+id/linearLayout1">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Input_text"
+            android:textColor="#ffffff"
+            android:textColorHint="#faa7a7"
+            android:textColorLink="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:shadowColor="#ffffff"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:layout_below="@id/Title_Trivia"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="number" 
+            android:id="@+id/InputNumber" />
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/Difficulty"
+            android:id="@+id/Category" />
+
+        
+
+        
+        
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/Type"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Difficulty" />
+        
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/InputNumber"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Type" />
+        
+
+        <TextView
+            android:text="@string/Title_Trivia"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Title_Trivia" />
+
+        <Button
+            android:text="@string/Button_Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Category"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/StartGame" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bardesign"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/panel"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    android:text="@string/Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="35sp"
+                    android:id="@+id/Title" />
+                <TextView
+                    android:text="@string/Count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/Count" />
+                <TextView
+                    android:text="@string/TimerGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/Timer_Game" />
+                <TextView
+                    android:text="@string/UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/UserName" />
+                <TextView
+                    android:text="@string/Difficulty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/Difficulty" />
+                <TextView
+                    android:text="@string/Categary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/Categary" />
+                <TextView
+                    android:text="@string/Type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/Type" />
+            </LinearLayout>
+            <TextView
+                android:text="@string/Question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/Question" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup1">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:layout_margin="8dp"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/onfalse"
+                    android:text="@string/answer_1"
+                    android:id="@+id/answer_1" />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/onfalse"
+                    android:button="@android:color/transparent"
+                    android:text="@string/answer_2"
+                    android:id="@+id/answer_2" />
+
+            </RadioGroup>
+            <Button
+                android:text="@string/Button_Next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50dp"
+                android:id="@+id/Next" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bardesign"
+        android:id="@+id/linearLayout2" >
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel"
+        android:layout_margin="20dp"
+        android:id="@+id/linearLayout1">
+
+
+        <TextView
+            android:text="@string/ForgotTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold|italic"
+            android:id="@+id/ForgotTitle" />
+
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#faa7a7"
+            android:textColorLink="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:shadowColor="#ffffff"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:hint="@string/Verify_User"
+            android:id="@+id/User" />
+        <Button
+            android:text="@string/Verify_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/Verify" />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#faa7a7"
+            android:textColorLink="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:shadowColor="#ffffff"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:hint="@string/New_pass"
+            android:id="@+id/New_Pass" />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#faa7a7"
+            android:textColorLink="#ffffff"
+            android:textColorHighlight="#ffffff"
+            android:shadowColor="#ffffff"
+            android:outlineAmbientShadowColor="#ffffff"
+            android:outlineSpotShadowColor="#ffffff"
+            android:hint="@string/New_re_pass"
+            android:id="@+id/new_repass" />
+        <Button
+            android:text="@string/Change_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:id="@+id/change" />
+
+    </LinearLayout>
+    
+
+</LinearLayout>
