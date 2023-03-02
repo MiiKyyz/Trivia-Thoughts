@@ -1,11 +1,18 @@
 # PlayGround
-This app allows you to play a question game in which you can adjust the topics, the difficulty, and select between multiple choice and true and false. In the app, you keep a record of your score, whether your response was correct or not. But, in order to play this game, you will have to create an account in order to play. This app also has two more
-![WhatsApp Image 2022-10-27 at 4 13 34 PM (3)](https://user-images.githubusercontent.com/87811682/198388986-391fdb1c-4569-49d1-92d2-45db5013369e.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 34 PM (2)](https://user-images.githubusercontent.com/87811682/198388989-efdecf20-fe3e-4a48-9e91-fd835fdf043b.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 34 PM (1)](https://user-images.githubusercontent.com/87811682/198388990-34331306-0862-4495-8124-fdbeae0210a0.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 34 PM](https://user-images.githubusercontent.com/87811682/198388993-af3bd3e6-3edf-4c6c-89c1-85148080b5e6.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 33 PM (4)](https://user-images.githubusercontent.com/87811682/198388995-812bfbed-8798-433a-9172-1da0af7f6261.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 33 PM (3)](https://user-images.githubusercontent.com/87811682/198388996-7f2028bd-bddb-49db-85ac-7aedfe91de04.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 33 PM (2)](https://user-images.githubusercontent.com/87811682/198388997-f3ccf2e2-5a02-4370-becd-f0b232eedef1.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 33 PM (1)](https://user-images.githubusercontent.com/87811682/198388998-96fb212f-4e2d-42aa-bf5d-7724b289f71c.jpeg)
-![WhatsApp Image 2022-10-27 at 4 13 33 PM](https://user-images.githubusercontent.com/87811682/198388999-b7072f12-b5c4-4245-a660-23a20cc00218.jpeg)
+
+Test what you know with facts or details that are considered to be more interesting than serious or useful.
+
+To start testing what you know Create an account to keep track of the good and bad answers you will get.
+
+The account created will be stored on your phone, which means you will not be able to save it anywhere else. this is done to keep information of the user save without the risk of being compromised. If the app is deleted, all the accounts created on that phone will be deleted with it, although if the app requires an update, the accounts will not be deleted.
+
+This app contains more than 4000 questions stored in a database with the purpose of testing how much people know about topics such as history, sports, politics, books, films, music, etc.
+
+Link to Download: https://play.google.com/store/apps/details?id=com.companyname.game_center_trivia
+
+
+![img(2)](https://user-images.githubusercontent.com/87811682/222494296-e4db62b4-817d-4803-8330-878a3a9d27f4.png)
+![img(4)](https://user-images.githubusercontent.com/87811682/222494298-38e880d1-b845-43a5-92a6-bedba206ec68.png)
+![img(5)](https://user-images.githubusercontent.com/87811682/222494300-b41f5a22-b5f7-425a-9166-8b9c02a472d2.png)
+![img(3)](https://user-images.githubusercontent.com/87811682/222494301-d03d253a-21e5-42c4-8fcc-10bbce035969.png)
+![img(1)](https://user-images.githubusercontent.com/87811682/222494304-25b552e7-ac96-450f-8ee0-b50f6a132ea7.png)
